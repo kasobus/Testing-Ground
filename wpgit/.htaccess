@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /resume/wpgit/
+RewriteBase /TestingGround/wpgit/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /resume/wpgit/index.php [L]
+RewriteRule . /TestingGround/wpgit/index.php [L]
 </IfModule>
 
 # END WordPress
